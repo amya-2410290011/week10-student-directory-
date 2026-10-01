@@ -33,7 +33,7 @@ function App() {
       <AddStudentForm onAdd={handleAddStudent} />
 
       <p>Current number of students: {students.length}</p>
-      <button onClick={() => setShowPassedOnly(!showPassedOnly)}>
+      <button className="filter-btn" onClick={() => setShowPassedOnly(!showPassedOnly)}>
         {showPassedOnly ? "Show All" : "Show Passed Only"}
       </button>
 

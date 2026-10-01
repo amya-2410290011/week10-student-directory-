@@ -23,7 +23,7 @@ function AddStudentForm({ onAdd }) {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="add-student-form" onSubmit={handleSubmit}>
       <input
         type="text"
         placeholder="Name"
